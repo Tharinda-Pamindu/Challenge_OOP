@@ -94,14 +94,14 @@ public class User {
     }
 
     /**
-     * @param messages required
+     * @param message required
      * @see Message
      * @see List
      * @see java.util.Collection
      */
-    public void setMessages(List<Message> messages) {
-        if (messages != null) {
-            this.messages.addAll(messages);
+    public void setMessage(Message message) {
+        if (message != null) {
+            this.messages.add(message);
         }
     }
 
@@ -121,7 +121,6 @@ public class User {
     }
 
     /**
-     *
      * @param message required
      */
     public void deleteMessage(Message message) {
@@ -137,7 +136,6 @@ public class User {
     }
 
     /**
-     *
      * @param contact required
      * @return contact
      * @Type Contact
