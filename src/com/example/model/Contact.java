@@ -7,7 +7,6 @@ public class Contact {
      * Allow user to store their data
      * Including First Name, Last Name, Email, Phone number
      */
-    private static int id = 0;
     private String firstName;
     private String lastName;
     private String email;
@@ -27,7 +26,6 @@ public class Contact {
         this.lastName = lastName;
         this.email = email;
         this.phone = phone;
-        id++;
     }
 
     /**
@@ -40,7 +38,6 @@ public class Contact {
         this.phone = phone;
         this.email = "";
         this.lastName = "";
-        id++;
     }
 
     /**
@@ -54,7 +51,6 @@ public class Contact {
         this.email = email;
         this.phone = phone;
         this.lastName = "";
-        id++;
     }
 
     /**
